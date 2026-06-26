@@ -1,1 +1,1 @@
-web: cd apps/desktop && node server.mjs
+web: cd apps/desktop && npm start
