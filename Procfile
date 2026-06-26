@@ -1,1 +1,1 @@
-web: cd apps/desktop && node server/index.mjs
+web: cd apps/desktop && node server.mjs
