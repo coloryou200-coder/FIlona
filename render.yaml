@@ -3,8 +3,9 @@ services:
     name: filona-server
     env: node
     plan: free
-    buildCommand: cd server && npm install
-    startCommand: cd server && npm start
+    root: apps/desktop
+    buildCommand: npm install
+    startCommand: node server/index.mjs
     envVars:
       - key: NODE_ENV
         value: production
